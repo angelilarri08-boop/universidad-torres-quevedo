@@ -62,7 +62,7 @@ a { color: var(--carmin); text-underline-offset: 0.2em; }
 .portada h1 { margin: 0; font-size: clamp(2.6rem, 6.2vw, 4.8rem); font-weight: 800; font-stretch: 118%; line-height: 0.98; letter-spacing: -0.03em; }
 .portada h1 em { font-style: normal; color: #B9BCC4; font-weight: 400; font-stretch: 100%; display: block; font-size: 0.42em; margin-top: 1rem; letter-spacing: 0; line-height: 1.4; }
 .portada p { margin: 1.5rem 0 1.75rem; max-width: 34rem; font-size: 1.15rem; color: #E4E6EA; }
-.portada .foto { aspect-ratio: 4 / 5; max-height: 34rem; }
+.portada .foto { aspect-ratio: 3 / 2; }
 .portada .foto img { filter: grayscale(1) contrast(1.08) brightness(0.95); }
 .portada .foto.sin-imagen { background: repeating-conic-gradient(#22252C 0 25%, #1B1E24 0 50%) 0 0 / 40px 40px; }
 .portada .foto.sin-imagen::before { background: var(--negro); color: #B9BCC4; border: 1px solid #3A3D45; }
